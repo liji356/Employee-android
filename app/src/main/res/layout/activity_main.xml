@@ -1,0 +1,62 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Empcode"
+        android:inputType="number"
+        android:id="@+id/code"
+        android:layout_margin="10dp"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EmpName"
+        android:layout_margin="10dp"
+        android:id="@+id/Emname"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mobile"
+        android:layout_margin="10dp"
+        android:id="@+id/Mob"
+        android:inputType="number"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_margin="10dp"
+        android:id="@+id/email"
+        android:textColor="@color/black"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Designation"
+        android:layout_margin="10dp"
+        android:id="@+id/des"
+        android:textColor="@color/black"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SUBMIT"
+        android:id="@+id/sub"
+        android:layout_margin="10dp"
+        android:background="@color/emp"/>
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
